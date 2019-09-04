@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_expenses"
+        android:icon="@drawable/ic_round_person_24px"
+        android:title="@string/title_expenses" />
+
+    <item
+        android:id="@+id/navigation_shared_expenses"
+        android:icon="@drawable/ic_round_people_24px"
+        android:title="@string/title_shared_expenses" />
+
+    <item
+        android:id="@+id/navigation_summaries"
+        android:icon="@drawable/ic_round_pie_chart_24px"
+        android:title="@string/title_summaries" />
+
+    <item
+        android:id="@+id/navigation_settings"
+        android:icon="@drawable/ic_round_settings_24px"
+        android:title="@string/title_settings" />
+
+</menu>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <TextView
+        android:id="@+id/shared_expense_item_DateView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal"
+        android:text="11/10/2018"
+        android:textColor="@android:color/background_light"
+        android:textSize="22sp"
+
+        tools:background="@color/colorPrimary" />
+
+    <TextView
+        android:id="@+id/shared_expense_item_categoryTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/shared_expense_item_DateView"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="11dp"
+        android:text="category"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/shared_expense_item_smallDateTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/shared_expense_item_categoryTextView"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="-1dp"
+        android:layout_marginEnd="41dp"
+        android:layout_marginRight="41dp"
+        android:text="date" />
+
+    <TextView
+        android:id="@+id/shared_expense_item_amount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/shared_expense_item_smallDateTextView"
+        android:layout_alignEnd="@+id/shared_expense_item_smallDateTextView"
+        android:layout_alignRight="@+id/shared_expense_item_smallDateTextView"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="-1dp"
+        android:layout_marginRight="-1dp"
+        android:text="amount"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/shared_expense_item_commentTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/UsersInvolvedView"
+        android:layout_alignStart="@+id/shared_expense_item_categoryTextView"
+        android:layout_alignLeft="@+id/shared_expense_item_categoryTextView"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="21dp"
+        android:text="comment" />
+
+    <TextView
+        android:id="@+id/TotalTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/shared_expense_item_categoryTextView"
+        android:layout_alignLeft="@+id/shared_expense_item_categoryTextView"
+        android:layout_alignBottom="@+id/shared_expense_item_amount"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginBottom="0dp"
+        android:text="Total" />
+
+    <TextView
+        android:id="@+id/UsersInvolvedView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TotalSplitEvenlyView"
+        android:layout_alignStart="@+id/TotalTextView"
+        android:layout_alignLeft="@+id/TotalTextView"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="15dp"
+        android:text="Steve" />
+
+    <TextView
+        android:id="@+id/TotalSplitEvenlyView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TotalTextView"
+        android:layout_alignStart="@+id/TotalTextView"
+        android:layout_alignLeft="@+id/TotalTextView"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="13dp"
+        android:text="Total split evenly: " />
+
+    <TextView
+        android:id="@+id/UsersPaidView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/UsersInvolvedView"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginRight="18dp"
+        android:layout_toStartOf="@+id/UsersDebtView"
+        android:layout_toLeftOf="@+id/UsersDebtView"
+        android:text="$0" />
+
+    <TextView
+        android:id="@+id/UsersDebtView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TotalSplitEvenlyView"
+        android:layout_alignEnd="@+id/shared_expense_item_amount"
+        android:layout_alignRight="@+id/shared_expense_item_amount"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:text="- $30" />
+
+
+</RelativeLayout>

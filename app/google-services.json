@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "581635494454",
+    "firebase_url": "https://myapplication-ac309.firebaseio.com",
+    "project_id": "myapplication-ac309",
+    "storage_bucket": "myapplication-ac309.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:581635494454:android:e2e75b9109765a26",
+        "android_client_info": {
+          "package_name": "com.example.hector.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "581635494454-cu4gsck1i2jv9rjmffm3v9jfci19r1u3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hector.myapplication",
+            "certificate_hash": "a6294971eaa1436e8c90484c950124981b661940"
+          }
+        },
+        {
+          "client_id": "581635494454-3jte5gtk803kslbcv5sm23ptfv8idcjq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8NMhb8Ww5CIbKn4sAlJYONJdb97FPm7s"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "581635494454-3jte5gtk803kslbcv5sm23ptfv8idcjq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
